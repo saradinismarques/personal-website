@@ -1,10 +1,15 @@
 /*-----------------------------------------TAG SELECTOR-----------------------------------------*/
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: rgb(99, 99, 99);
+    height: 100%;
 }
 
 header {
@@ -103,7 +108,7 @@ p {
 .top-container {
     background-color: #d9ecf2;
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 .amusement-park {
@@ -114,18 +119,17 @@ p {
     right: 0;
     bottom: 0;
 }
-
 /*=======================================PROFILE-CONTAINER========================================*/
 
 .profile-container {
     background-color: #f8e4b7;
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 .profile {
-    position: absolute;
-    margin: 135px auto;
+    display: inline-block;
+    margin: 10.5% auto;
     left: 0;
     right: 0;
 }
@@ -140,13 +144,13 @@ p {
 .skills-container {
     background-color: #f8c6bf;
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 
 .skills {
-    position: absolute;
-    margin: 50px auto;
+    display: inline-block;
+    margin: 3.5% auto;
     left: 0;
     right: 0;
 }
@@ -175,18 +179,18 @@ p {
 .contact-me-container {
     background-color: #d3e7ad;
     position: relative;
-    height: 75vh;
+    height: 100%;
 }
 
 .contact-me {
-    position: absolute;
-    margin: 110px auto;
+    display: inline-block;
+    margin: 8.5% auto 12.5% auto;
     left: 0;
     right: 0;
 }
 
 .contact-message {
-    width: 40%;
+    width: 100%;
     margin: 50px  auto;
 }
 
@@ -217,9 +221,14 @@ p {
 /*========================================BOTTOM-CONTAINER========================================*/
 
 .bottom-container {
+    position: relative;
     background-color: #9b878c;
-    padding: 6vh 0 4vh;
-    height: 15vh;
+    padding: 3% 0 4%;
+    height: 10%;
+}
+
+.footer {
+    display: inline-block;
 }
 
 .footer-link {
