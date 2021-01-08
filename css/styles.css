@@ -111,6 +111,10 @@ p {
     height: 100%;
 }
 
+.top {
+    display: inline-block;
+}
+
 .amusement-park {
     width: 52rem;
     position: absolute;
