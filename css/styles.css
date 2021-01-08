@@ -20,7 +20,7 @@ header {
 h1 {
     font-size: 5rem;
     line-height: 1.7;
-    margin:25% auto 0 auto;
+    margin:8% auto 0 auto;
     font-family: 'Poiret One', cursive;
     color: #9b878c;
     font-weight: lighter;
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
     font-size: 1.16rem;
-    margin: 0 auto 100px 0;
+    margin: 0 auto 20% 0;
     color: #9b878c;
     font-weight: lighter;
     padding-bottom: 1em;
@@ -116,8 +116,10 @@ p {
 }
 
 .amusement-park {
+    position: relative;
+    top: 100%;
+    transform: translateY(-13%);
     width: 52rem;
-    position: absolute;
     margin: auto;
     left: 0;
     right: 0;
@@ -254,7 +256,7 @@ p {
 
 /*==========================================OTHER-PAGES===========================================*/
  .under-construction {
-    margin: 175px auto 0 auto;
+    margin: 21% auto 23.3% auto;
  }
 
 
