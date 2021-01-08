@@ -116,8 +116,6 @@ p {
 }
 
 .amusement-park {
-    position: relative;
-    top: 100%;
     transform: translateY(-13%);
     width: 52rem;
     margin: auto;
