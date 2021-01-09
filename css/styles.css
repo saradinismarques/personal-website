@@ -20,7 +20,7 @@ header {
 h1 {
     font-size: 5rem;
     line-height: 1.7;
-    margin:8% auto 0 auto;
+    margin:4.5% auto 0 auto;
     font-family: 'Poiret One', cursive;
     color: #9b878c;
     font-weight: lighter;
@@ -111,12 +111,8 @@ p {
     height: 100%;
 }
 
-.top {
-    display: inline-block;
-}
-
 .amusement-park {
-    transform: translateY(-13%);
+    position: absolute;
     width: 52rem;
     margin: auto;
     left: 0;
@@ -254,7 +250,7 @@ p {
 
 /*==========================================OTHER-PAGES===========================================*/
  .under-construction {
-    margin: 21% auto 23.3% auto;
+    margin: 11.5% auto;
  }
 
 
