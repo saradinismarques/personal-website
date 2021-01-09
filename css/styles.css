@@ -23,14 +23,14 @@ h1 {
     margin:5% auto 0 auto;
     font-family: 'Poiret One', cursive;
     color: #9b878c;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 h2 {
     font-size: 1.16rem;
     margin: 0 auto 20% 0;
     color: #9b878c;
-    font-weight: lighter;
+    font-weight: 100;
     padding-bottom: 1em;
     font-family: 'Montserrat', sans-serif;
 }
@@ -40,7 +40,7 @@ h3 {
     font-size: 1.7rem;
     padding-bottom: 5px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 h4 {
