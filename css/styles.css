@@ -179,12 +179,11 @@ p {
 .contact-me-container {
     background-color: #d3e7ad;
     position: relative;
-    height: 100%;
 }
 
 .contact-me {
     display: inline-block;
-    margin: 8.5% auto 12.5% auto;
+    margin: 8.7% auto 12.7% auto;
     left: 0;
     right: 0;
 }
